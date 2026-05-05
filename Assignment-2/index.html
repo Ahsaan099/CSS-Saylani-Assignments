@@ -1,21 +1,71 @@
-<!doctype html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1 id="main-title">CSS Challenge: Text Mastery</h1>
-      <p class="intro-paragraph">Explore the art of text styling!</p>
-    </header>
-    <section>
-      <p class="content-paragraph">Dive into the world of content styling.</p>
-      <div class="color-box">
-        <p>Inner Text</p>
-      </div>
-    </section>
-    <footer>
-      <p>&copy; 2023 CSS Text Artistry. All rights reserved.</p>
-    </footer>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Challenge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 40px;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+        }
+
+        .main-title {
+            color: #00008b;
+            text-decoration: underline;
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .italic-text {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .bold-text {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .shadow-text {
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+            margin-bottom: 15px;
+        }
+
+        .footer-text {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="main-title">CSS Challenge: Text Mastery</h2>
+        
+        <p class="italic-text">Explore the art of text styling!</p>
+        
+        <p class="bold-text">Dive into the world of content styling.</p>
+        
+        <p class="shadow-text">Inner Text</p>
+        
+        
+        <p class="footer-text">&copy; 2023 CSS Text Artistry. All rights reserved.</p>
+    </div>
+
+</body>
 </html>
